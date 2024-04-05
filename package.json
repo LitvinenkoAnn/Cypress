@@ -1,0 +1,19 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --headed",
+    "test2": "cypress run --headed --browser chrome --config-file cypress.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.1"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
